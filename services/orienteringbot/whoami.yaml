@@ -9,3 +9,6 @@ dependsOn:
   - type: cloudstorage
     project: amedia-browser
     bucket: dropbox
+slack: 
+  - "#bot-orientering"
+  - "#orientering"
