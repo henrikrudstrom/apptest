@@ -1,0 +1,8 @@
+name: insanity
+description: 'indexes tags from sanity to elastic'
+dependsOn:
+  - type: sanity
+    project: metadata
+  - type: elastic
+    provider: aivencloud
+    index: es-metadata-prod-amedia

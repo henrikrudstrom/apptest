@@ -1,0 +1,11 @@
+name: drive-uploader
+description: 'Uploads files from cloud storage to Google Drive'
+dependsOn:
+  - type: cloudstorage
+    project: amedia-browser
+    bucket: dropbox
+  - name: Google Drive
+receivesFrom:
+  - type: pubsub
+    project: amedia-browser
+    topic: dropbox-upload

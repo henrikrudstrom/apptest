@@ -1,0 +1,4 @@
+name: reodor
+description: 'tag editor plugin for escenic'
+dependsOn:
+  - name: 'cuenity'

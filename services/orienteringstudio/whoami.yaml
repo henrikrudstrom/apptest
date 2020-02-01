@@ -1,0 +1,5 @@
+name: orienteringstudio
+description: 'sanity desk for orientering content'
+dependsOn:
+  - type: sanity
+    project: orientering

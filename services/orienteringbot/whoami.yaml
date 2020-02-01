@@ -1,0 +1,11 @@
+name: orienteringbot
+description: 'process concact forms and performs syncing tasks at regular intervals'
+dependsOn:
+  - type: sanity
+    name: orientering
+  - name: gaia
+  - name: Workplace
+  - name: GSuite
+  - type: cloudstorage
+    project: amedia-browser
+    bucket: dropbox

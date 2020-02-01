@@ -1,0 +1,13 @@
+name: 'orientering'
+description: 'serves semi static content: static pages, contact forms, employee pages etc.'
+dependsOn:
+  - type: sanity
+    project: orientering
+  - name: Google Drive
+  - name: gaia
+  - type: pubsub
+    project: amedia-browser
+    topic: dropbox-upload
+  - type: cloudstorage
+    project: amedia-browser
+    bucket: dropbox

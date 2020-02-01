@@ -1,0 +1,9 @@
+name: cuenity
+description: 'backend for metadata tag editor'
+dependsOn:
+  - type: sanity
+    project: metadata
+  - type: elastic
+    provider: aivencloud
+    index: es-metadata-prod-amedia
+  - name: gaia
