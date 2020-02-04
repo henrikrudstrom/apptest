@@ -1,0 +1,6 @@
+name: 'gaia'
+description: 'configuration service'
+dependsOn:
+  - acpdb1
+  - type: github-repo
+    repo: 'amedia/site-config'

@@ -1,0 +1,10 @@
+name: acpcomposer
+description: acpcomposer
+dependsOn:
+  - acpece5
+  - acpaptoma
+  - acparchive
+  - gaia
+  - acpsanity
+  - acpsearch
+  - brahma

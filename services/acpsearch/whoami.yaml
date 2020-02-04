@@ -1,0 +1,7 @@
+name: acpsearch
+description: acpsearch
+dependsOn:
+  - gaia
+  - type: elastic-index
+    provider: amedia-core
+    name: content

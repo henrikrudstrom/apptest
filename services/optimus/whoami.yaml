@@ -1,0 +1,6 @@
+name: optimus
+description: optimus
+dependsOn:
+  - prowl
+  - ordino
+  - gaia

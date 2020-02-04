@@ -1,0 +1,4 @@
+name: theprox
+description: theprox
+dependsOn:
+  - escenic

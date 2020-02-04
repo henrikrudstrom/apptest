@@ -1,0 +1,5 @@
+name: acpaptoma
+description: acpaptoma
+dependsOn:
+  - drpublish
+  - dredition

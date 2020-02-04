@@ -1,0 +1,12 @@
+name: acpindexer
+description: acpindexer
+dependsOn:
+  - type: elastic-index
+    provider: amedia-core
+    name: content
+  - acpcomposer
+  - gaia
+  - acpaptoma
+  - type: pubsub-topic
+    provider: amedia-core
+    name: content

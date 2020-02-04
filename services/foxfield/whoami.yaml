@@ -1,0 +1,5 @@
+name: foxfield
+description: foxfield
+dependsOn:
+  - gaia
+  - acpcomposer

@@ -1,0 +1,7 @@
+name: ordino
+description: ordino
+dependsOn:
+  - acpdb1
+  - prowl
+  - gaia
+  - echidna

@@ -1,0 +1,5 @@
+name: acpsanity
+description: acpsanity
+dependsOn:
+  - type: sanity
+    name: metadata

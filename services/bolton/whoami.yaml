@@ -1,0 +1,5 @@
+name: bolton
+description: bolton
+dependsOn:
+  - gaia
+  - acpcomposer
