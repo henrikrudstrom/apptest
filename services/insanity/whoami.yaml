@@ -1,5 +1,5 @@
 name: insanity
-description: 'indexes tags from sanity to elastic'
+description: 'indexes tags from sanity to elastic.'
 dependsOn:
   - type: sanity
     project: metadata
