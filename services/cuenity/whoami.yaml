@@ -1,5 +1,5 @@
 name: cuenity
-description: 'backend for metadata tag editor'
+description: 'backend for metadata tag editor.'
 dependsOn:
   - type: sanity
     project: metadata
