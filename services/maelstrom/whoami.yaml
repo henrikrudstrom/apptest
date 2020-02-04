@@ -1,5 +1,5 @@
 name: maelstrom
-description: maelstrom
+description: its a maelstrom
 dependsOn:
   - foxfield
   - bolton
