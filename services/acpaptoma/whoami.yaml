@@ -1,5 +1,5 @@
 name: acpaptoma
-description: acpaptoma
+description: acpaptoma service
 dependsOn:
   - drpublish
   - dredition
