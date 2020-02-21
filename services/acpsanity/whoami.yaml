@@ -1,5 +1,5 @@
 name: acpsanity
-description: acpsanity
+description: interface to sanity metadata 
 dependsOn:
   - type: sanity
     name: metadata
